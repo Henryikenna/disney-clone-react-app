@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/header'
 import Slider from './components/Slider'
 import ProductionHouse from './components/ProductionHouse'
 import GenreMovieList from './components/GenreMovieList'
+import TheHeader from './components/TheHeader'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Header/>
+      <TheHeader />
       <Slider />
       <ProductionHouse />
       <GenreMovieList />
